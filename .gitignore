@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.local
+
+# Generated reports — keep the directory, ignore the artifacts
+outputs/*.json
+outputs/*.html
+!outputs/.gitkeep
+
+# Logs / OS noise
+npm-debug.log*
+.DS_Store
